@@ -12,7 +12,10 @@ be taken down, thus making it, same as Life, an unstoppable,
 uncensorable, undeletable OS-like collection of software.
 
 The [Ur](
-  ../ur) is a core component of DogeOS.
+  ../ur)
+and the [Ethereum Virtual Machine File System (EVMFS)](
+  ../evmfs)  
+are core components of DogeOS.
 
 DogeOS runs on many blockchains networks, some of which
 use Dogecoin as their computational power currency.
