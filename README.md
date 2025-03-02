@@ -14,7 +14,7 @@ uncensorable, undeletable OS-like collection of software.
 The [Ur](
   ../ur)
 and the [Ethereum Virtual Machine File System (EVMFS)](
-  ../evmfs)  
+  ../evmfs)
 are core components of DogeOS.
 
 DogeOS runs on many blockchains networks, some of which
