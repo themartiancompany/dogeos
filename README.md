@@ -3,7 +3,7 @@
 DogeOS is an extension of Life, an OS-like collection of software.
 
 DogeOS components run on a variety of computing platforms:
-phones, tablets, laptops, workstations, blockchain networks. 
+blockchain networks, phones, tablets, laptops, workstations.
 
 DogeOS components run on a large variety of operating systems.
 
