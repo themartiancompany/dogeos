@@ -48,5 +48,12 @@ of which the core ones are developed and authored by
   https://github.com/themartiancompany) and it is
 part of the Human Instrumentality Project (HIP).
 
+### Build
+
+A DogeOS system is one whose base packages have been
+built from The Martian Company's recipes on the Ur.
+
+### License
+
 DogeOS core components are released as free software under
 the terms of the GNU Affero General Public License version 3.
