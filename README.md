@@ -84,6 +84,12 @@ thieves without any morals nor dignity and their actions
 something appropriate for the kind of person they want to communicate
 they are.
 
+Overall, keeping in mind The Martian Company is the author of a
+permissionless application store where multiple developers can publish
+their own version of a certain application, it considers 'MyDoge'
+actions a form of bullying which it hopes it will cause that
+company to lose all credit it had and ultimately dismantle.
+
 ### License
 
 DogeOS core components are released as free software under
