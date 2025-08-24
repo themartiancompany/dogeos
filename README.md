@@ -19,6 +19,7 @@
 [comment]: <> (License along with this program.)
 [comment]: <> (If not, see <https://www.gnu.org/licenses/>.)
 
+
 # Doge OS
 
 DogeOS is an extension of Life, an OS-like collection of software,
@@ -53,6 +54,7 @@ are the largest object ever written on any blockchain, with a size
 of over 6 gigabytes recorded through millions of transactions on more
 than an hundred Ethereum-like blockchains.
 
+
 ### Build
 
 A DogeOS system is one whose base packages have been
@@ -62,10 +64,11 @@ built from The Martian Company's recipes on the Ur.
 ### Name controversy
 
 Having been working on DogeOS development for more than 4 years,
-with many people from the 'Dogelon Mars' community well knowing
-what the plans were, when the so-called 'MyDoge' developers
-have shown to be working on a product with the same name and apparently
-the same description, despite them not having even published one of the
+and on Life for around a decade, with many people from the
+'Dogelon Mars' community well knowing what the plans were, when
+the so-called 'MyDoge' developers have shown to be working on a
+product with the same name and apparently the same description,
+despite them not having even published one of the
 needed technical tools needed to accomplish what this DogeOS has,
 The Martian Company has futilely tried to contact them on X to
 peacefully and cordially address this controversy, as it is
@@ -89,6 +92,7 @@ permissionless application store where multiple developers can publish
 their own version of a certain application, it considers 'MyDoge'
 actions a form of bullying which it hopes it will cause that
 company to lose all credit it had and ultimately dismantle.
+
 
 ### License
 
