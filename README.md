@@ -33,7 +33,6 @@ DogeOS components running on blockchain networks can't
 be taken down, thus making it, same as Life, an unstoppable,
 uncensorable, undeletable OS-like collection of software.
 
-
 The [Ur](
   https://github.com/themartiancompany/ur)
 and the [Ethereum Virtual Machine File System (EVMFS)](
@@ -52,7 +51,7 @@ part of the Human Instrumentality Project (HIP).
 As of 2025 DogeOS sources and the Ur application store resources
 are the largest object ever written on any blockchain, with a size
 of over 6 gigabytes recorded through millions of transactions on more
-than an hundred blockchains.
+than an hundred Ethereum-like blockchains.
 
 ### Build
 
