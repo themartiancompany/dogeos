@@ -26,6 +26,7 @@
      width="500"
      align="center"
   />
+  <i>Temporary (?) logo.</i>
 </div>
 
 
