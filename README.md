@@ -26,7 +26,12 @@
      width="500"
      align="center"
   />
-  <i>Temporary (?) logo.</i>
+  <br />
+  <sub>
+    <i>
+      Temporary (?) logo.
+    </i>
+  </sub>
 </div>
 
 
