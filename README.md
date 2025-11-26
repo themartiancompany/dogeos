@@ -19,6 +19,15 @@
 [comment]: <> (License along with this program.)
 [comment]: <> (If not, see <https://www.gnu.org/licenses/>.)
 
+<div
+   align="center">
+  <img
+     src="https://raw.githubusercontent.com/themartiancompany/dogeos-data/b5e3d9a654d001020a242dcd6d252ca22391a3d7/dogeos.png"
+     width="500"
+     align="center"
+  />
+</div>
+
 
 # Doge OS
 
