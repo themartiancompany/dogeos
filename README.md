@@ -75,6 +75,14 @@ than an hundred Ethereum-like blockchains.
 A DogeOS system is one whose base packages have been
 built from The Martian Company's recipes on the Ur.
 
+### Contribute
+
+Code contributions are welcome.
+
+In order to be monetarily retributed, whenever
+appliable, contributions are required to respect
+[DogeOS coding style](
+  https://github.com/themartiancompany/dogeos-coding-style).
 
 ### Name controversy
 
