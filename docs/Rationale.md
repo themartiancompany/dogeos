@@ -36,6 +36,17 @@ copyleft.
 DogeOS is an operating system and application
 layer designed to run on a computer dog.
 
+<div
+   align="center">
+  <a
+     href="https://github.com/themartiancompany/dogeos">
+    <img
+       src="https://raw.githubusercontent.com/themartiancompany/dogeos-data/c17f4d8ab98863c48d20e8d742861753278f2cc4/gooby.png"
+       width="500"
+    />
+  </a>
+</div>
+
 Do you expect your dog to lie to you?
 You do not.
 
@@ -43,6 +54,9 @@ Do you expect your dog to forget an order?
 You do not.
 
 Do you expect your dog to follow others' orders?
+You do not.
+
+Do you expect your dog to let others hurt you unpunished?
 You do not.
 
 Do you expect your dog to unlearn a trick you taught it?
