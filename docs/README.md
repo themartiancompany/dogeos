@@ -35,7 +35,7 @@
 Here follows an index for the DogeOS documentation.
 
 - [Rationale](
-    Rationale)
+    Rationale.md)
 
 The documentation is released under the terms of the
 GNU Affero General Public License version 3.
