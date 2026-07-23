@@ -53,3 +53,6 @@ You do not.
 
 Do you expect your dog's memory to disappear when you leave?
 You do not.
+
+Do you expect your dog to be able to go around without an ID?
+You do not.
