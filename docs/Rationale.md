@@ -41,7 +41,7 @@ layer designed to run on a computer dog.
   <a
      href="https://github.com/themartiancompany/dogeos">
     <img
-       src="https://raw.githubusercontent.com/themartiancompany/dogeos-data/c17f4d8ab98863c48d20e8d742861753278f2cc4/gooby.png"
+       src="https://raw.githubusercontent.com/themartiancompany/dogeos-data/c17f4d8ab98863c48d20e8d742861753278f2cc4/goody.png"
        width="500"
     />
   </a>
