@@ -33,8 +33,12 @@ censorship.
 I've spent most of my life thinking about
 copyleft.
 
-DogeOS is an operating system and application
-layer designed to run on a computer dog.
+So I've written an operating system superset
+called Life.
+
+DogeOS is a Life subset, an operating system
+and application layer, designed to run on
+a computer dog.
 
 <div
    align="center">
