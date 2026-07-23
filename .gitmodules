@@ -1,3 +1,6 @@
 [submodule "data"]
 	path = data
 	url = https://github.com/themartiancompany/dogeos-data
+[submodule "docs"]
+	path = docs
+	url = https://github.com/themartiancompany/dogeos-docs
