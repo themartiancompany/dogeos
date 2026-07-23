@@ -70,3 +70,6 @@ You do not.
 
 Do you expect your dog to be able to go around without an ID?
 You do not.
+
+Do you expect your dog to be lazy around you when you work?
+You do not.
