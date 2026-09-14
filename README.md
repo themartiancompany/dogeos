@@ -64,9 +64,9 @@ of which the core ones are developed and authored by
   https://github.com/themartiancompany) and it is
 part of the Human Instrumentality Project (HIP).
 
-As of 2025 DogeOS sources and the Ur application store resources
+As of 2026 DogeOS sources and the Ur application store resources
 are the largest object ever written on any blockchain, with a size
-of over 6 gigabytes recorded through millions of transactions on more
+of over 13 gigabytes recorded through millions of transactions on more
 than an hundred Ethereum-like blockchains.
 
 
