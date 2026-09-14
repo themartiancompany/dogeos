@@ -75,6 +75,17 @@ than an hundred Ethereum-like blockchains.
 A DogeOS system is one whose base packages have been
 built from The Martian Company's recipes on the Ur.
 
+### Documentation
+
+DogeOS documentation is available in the
+[docs](
+  docs)
+directory, which contains a git submodule
+pointing to the
+[`dogeos-docs`](
+  https://github.com/themartiancompany/dogeos-docs)
+repository.
+
 ### Contribute
 
 Code contributions are welcome.
@@ -83,6 +94,14 @@ In order to be monetarily retributed, whenever
 appliable, contributions are required to respect
 [DogeOS coding style](
   https://github.com/themartiancompany/dogeos-coding-style).
+
+Official, censorable, moderated DogeOS Telegram group is
+[`archlinuxglobal`](
+  https://t.me/archlinuxglobal),
+because DogeOS was Arch Linux with and without Linux, before
+Arch Linux went rogue and became a malevolent project.
+
+To talk about DogeOS on the undeletable Twitter is better though.
 
 ### Name controversy
 
