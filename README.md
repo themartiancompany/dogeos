@@ -119,7 +119,7 @@ To talk about DogeOS on the undeletable Twitter is better though.
 
 ### Name controversy
 
-Having been working on DogeOS development for more than 4 years,
+Having been working on DogeOS development for more than 5 years,
 and on Life for around a decade, with many people from the
 *Dogelon Mars* community well knowing what the plans were, when
 the so-called *MyDoge* developers have shown to be working on a
@@ -131,31 +131,35 @@ peacefully and cordially address this controversy, as it is
 customary between civil, polite and good people.
 
 Despite The Martian Company's efforts, after months of ignoring
-its contacts requests, 'MyDoge' developers have
-turned over time explicitly hostile, with its lead 'cb_designer'
+its contacts requests, *MyDoge* developers have
+turned over time explicitly hostile, with its lead *cb_designer*
 and one of his developers even blocking The Martian Company's
 contacts on social networks.
 
 Considering there is yet another project called DogeOS, focusing
 on yet another matter, supposedly having existed for over 10 years,
-The Martian Company considers 'MyDoge' a bunch of savages and
+The Martian Company considers *MyDoge* a bunch of savages and
 thieves without any morals nor dignity and their actions
 something appropriate for the kind of person they want to communicate
 they are.
 
 Overall, keeping in mind The Martian Company is the author of a
 permissionless application store where multiple developers can publish
-their own version of a certain application, it considers 'MyDoge'
+their own version of a certain application, it considers *MyDoge*
 actions a form of bullying which it hopes it will cause that
 company to lose all credit it had and ultimately dismantle.
 
-At this point in time (October 2026) the work published by
-MyDoge is still far being an operating system under almost
-any point of view and all one can see is what they call DogeOS
-is just but a very small sub-task in the context of ours.
+At this point in time (October 2026) it's clear the work
+MyDoge has published and intended to publish is a computer
+operating system under almost any point of view and all one
+can see is what they call DogeOS is just but a very small
+sub-task in the context of ours, i.e. an Ethereum Virtual
+Machine port of sorts over Dogecoin blockchain networks,
+similar to others alredy existing (Dogechain, Dogeparty
+and others).
 
 We think it would have been more appropriate their work
-to be called something as *zk-Dogecoin* and not *DogeOS*
+to be called something such as *zk-Dogecoin* and not *DogeOS*
 because it's what it is.
 
 We are still deeply convinced all the MyDoge group seems to
