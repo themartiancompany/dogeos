@@ -68,8 +68,9 @@ and the [Ethereum Virtual Machine File System (EVMFS)](
   https://github.com/themartiancompany/evmfs)
 are core components of DogeOS.
 
-DogeOS runs on many blockchains networks, some of which
-use Dogecoin as their computational power currency.
+DogeOS runs on over an hundred blockchains networks,
+some of which use Dogecoin as their computational
+power currency.
 
 DogeOS is made of thousands of distinct softwares,
 of which the core ones are developed and authored by
