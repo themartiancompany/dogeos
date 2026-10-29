@@ -121,8 +121,8 @@ To talk about DogeOS on the undeletable Twitter is better though.
 
 Having been working on DogeOS development for more than 4 years,
 and on Life for around a decade, with many people from the
-'Dogelon Mars' community well knowing what the plans were, when
-the so-called 'MyDoge' developers have shown to be working on a
+*Dogelon Mars* community well knowing what the plans were, when
+the so-called *MyDoge* developers have shown to be working on a
 product with the same name and apparently the same description,
 despite them not having even published one of the
 needed technical tools needed to accomplish what this DogeOS has,
@@ -149,6 +149,11 @@ their own version of a certain application, it considers 'MyDoge'
 actions a form of bullying which it hopes it will cause that
 company to lose all credit it had and ultimately dismantle.
 
+At this point in time (October 2026) the work published by
+MyDoge is still far from an operating system under almost
+any sense and from our point of view all of that is it but
+a very small sub-task in the context of The Martian Company's
+DogeOS work.
 
 ### License
 
