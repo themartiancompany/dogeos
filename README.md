@@ -150,10 +150,18 @@ actions a form of bullying which it hopes it will cause that
 company to lose all credit it had and ultimately dismantle.
 
 At this point in time (October 2026) the work published by
-MyDoge is still far from an operating system under almost
-any sense and from our point of view all of that is it but
-a very small sub-task in the context of The Martian Company's
-DogeOS work.
+MyDoge is still far being an operating system under almost
+any point of view and all one can see is what they call DogeOS
+is just but a very small sub-task in the context of ours.
+
+We think it would have been more appropriate their work
+to be called something as *zk-Dogecoin* and not *DogeOS*
+because it's what it is.
+
+We are still deeply convinced all the MyDoge group seems to
+have done up so far is one of tohse clear reasons one is
+allowed to say:
+*this is why nobody can't have a nice time at this world*.
 
 ### License
 
