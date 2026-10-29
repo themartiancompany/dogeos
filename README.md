@@ -161,9 +161,9 @@ and others).
 We think it would have been more appropriate their work
 to be called something such as *zk-Dogecoin* and not *DogeOS*
 because it's what it is.
-All points they have used that name as marketing stunt,
-which perfectly describes the professionality and the
-seriousness of those people.
+All points they have used that name as nothing more than
+a marketing stunt, which perfectly sums up the professionality,
+the seriousness and the trust it can be assigned to such people.
 
 We are still deeply convinced all the MyDoge group seems to
 have done up so far is one of tohse clear reasons one is
