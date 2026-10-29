@@ -169,7 +169,7 @@ professionality, the seriousness and the trust it can be
 assigned or given to such people.
 
 We are still deeply convinced all the MyDoge group seems to
-have done up so far is one of tohse clear reasons one is
+have done up so far is one of those clear reasons one is
 allowed to say:
 *this is why nobody can't have a nice time at this world*.
 
