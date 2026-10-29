@@ -57,7 +57,10 @@ DogeOS components run on a large variety of operating systems.
 
 DogeOS components running on blockchain networks can't
 be taken down, thus making it, same as Life, an unstoppable,
-uncensorable, undeletable OS-like collection of software.
+uncensorable,
+[undeletable](
+  https://github.com/themartiancompany/evmfs-docs/tree/master/Undeletability.md)
+OS-like collection of software.
 
 The [Ur](
   https://github.com/themartiancompany/ur)
