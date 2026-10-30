@@ -89,6 +89,11 @@ than an hundred Ethereum-like blockchains.
 A DogeOS system is one whose base packages have been
 built from The Martian Company's recipes on the Ur.
 
+Concrete build instructions for a minimal OS image
+can be found in the
+[documentation](
+  https://github.com/themartiancompany/dogeos-docs/tree/master/Build.md).
+
 ### Documentation
 
 DogeOS documentation is available in the
