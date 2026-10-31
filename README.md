@@ -184,11 +184,18 @@ You should create a separate article for
 the DogeOS from
 [The Martian Company](
   https://github.com/themartiancompany),
-because you're currently pointing dozens
-of DogeOS programs to the one from the
-dishonest MyDoge group and that's very
-misleading because theirs it's not even
-a computer operating system.
+because you're
+[currently pointing dozens of DogeOS programs to a something which is not even a computer operating system](
+  https://github.com/themartiancompany/dogeos/issues/6).
+By keeping all of the information about this
+DogeOS, which is a real operating system,
+as a paragraph in that page is not
+only demeaning towards The Martian Company
+and an indirect proof you have a strong
+bias towards people who pay journalists to
+have articles about them appear
+on newspapers, but above all you are
+misleading readers.
 
 ### License
 
