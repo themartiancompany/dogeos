@@ -211,6 +211,12 @@ how to package anything (i.e. you know how to read
 a `PKGBUILD`) you know how to package
 the operating system itself.
 
+Also this DogeOS is the only operating system superset
+containing a base using the
+[Rinux](
+  https://github.com/themartiancompany/rinux)
+kernel.
+
 ### License
 
 DogeOS core components are released as free software under
