@@ -204,6 +204,13 @@ of this operating system superset, which
 is a new entity/concept entirely whose only existing
 instance is the DogeOS from The Martian Company.
 
+Be sure to write DogeOS is the only operating
+system which is so easy to customize it is built
+as an operating system package so if you know
+how to package anything (i.e. you know how to read
+a `PKGBUILD`) you know how to package
+the operating system itself.
+
 ### License
 
 DogeOS core components are released as free software under
