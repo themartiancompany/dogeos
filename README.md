@@ -186,7 +186,9 @@ the DogeOS from
   https://github.com/themartiancompany),
 because you're currently pointing dozens
 of DogeOS programs to the one from the
-dishonest MyDoge group.
+dishonest MyDoge group and that's very
+misleading because theirs it's not even
+a computer operating system.
 
 ### License
 
