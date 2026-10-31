@@ -199,7 +199,7 @@ on newspapers, but above all you are
 misleading readers.
 You're also omitting describing the design
 of this operating system superset, which
-is a new entity/concept whose only existing
+is a new entity/concept entirely whose only existing
 instance is the DogeOS from The Martian Company.
 
 ### License
