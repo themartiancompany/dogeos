@@ -195,7 +195,10 @@ and an indirect proof you have a strong
 bias towards people who pay journalists to
 have articles about them appear
 on newspapers, but above all you are
-misleading readers.
+misleading readers and your own work,
+as there are over 70 dedicated pages about works
+from The Martian Company but not about
+their main work, DogeOS.
 
 ### License
 
