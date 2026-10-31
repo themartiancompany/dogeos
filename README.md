@@ -197,6 +197,10 @@ bias towards people who pay journalists to
 have articles about them appear
 on newspapers, but above all you are
 misleading readers.
+You're also omitting describing the design
+of this operating system superset, which
+is a new entity whose only existing instance
+is DogeOS from The Martian Company.
 
 ### License
 
