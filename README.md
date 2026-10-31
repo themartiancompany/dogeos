@@ -188,8 +188,9 @@ because you're
 [currently pointing dozens of DogeOS programs to a something which is not even a computer operating system](
   https://github.com/themartiancompany/dogeos/issues/6).
 By keeping all of the information about this
-DogeOS, which is a real operating system,
-as a paragraph in that page is not
+DogeOS, which instead is a real operating system
+for computers running on real hardware
+as a paragraph in that page, is not
 only demeaning towards The Martian Company
 and an indirect proof you have a strong
 bias towards people who pay journalists to
