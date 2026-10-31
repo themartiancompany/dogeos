@@ -192,8 +192,8 @@ DogeOS, which instead is a real operating system
 for computers running on real hardware
 as a paragraph in that page, is not
 only demeaning towards The Martian Company
-because our work has a way larger breadth than
-the one from MyDoge
+and for yourself, because our work has a way
+larger breadth than the one from MyDoge
 and an indirect proof you have a strong
 bias towards people who pay journalists to
 have articles about them appear
