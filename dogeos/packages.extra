@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+_packages=(
+    "mkinitcpio-archiso-encryption-git"
+    "cryptsetup-sigfile"
+    # "archiso-persistent-git"
+    # "metamask-firefox"
+    "plymouth-sigfile"
+    "st"
+    "dwm"
+)

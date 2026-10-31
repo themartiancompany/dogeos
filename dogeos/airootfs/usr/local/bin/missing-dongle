@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+
+_missing_dongle() {
+  local _key _keys_path _keys_mount_unit _keys_automount_unit _keys_unit
+  local _msg="Insert ISO persistent passphrase"
+  local _attach_options=()
+  if ! /usr/bin/systemctl -q is-active systemd-cryptsetup@persistent.service; then
+      _keys_path="run/cryptsetup-keys.d"
+      _key="/${_keys_path}/persistent.key"
+      _keys_mount_unit=$(/usr/bin/systemd-escape "${_keys_path}.mount")
+      _keys_automount_unit=$(/usr/bin/systemd-escape "${_keys_path}.automount")
+      if ! systemctl -q is-active "${_keys_mount_unit}"; then
+          /usr/bin/systemctl stop "${_keys_automount_unit}"
+	  /usr/bin/mkdir -p "/${_keys_path}"
+	  /usr/bin/systemd-ask-password -n "${_msg}" > "${_key}"
+	  read -r -a _attach_options <<< "$(/usr/bin/grep "\bpersistent\b" < /etc/crypttab)"
+	  /usr/lib/systemd/systemd-cryptsetup attach "${_attach_options[@]}"
+      fi
+  fi
+}
+
+_main() {
+    local _command="${1}"
+    if [ "${_command}" == "start" ]; then
+        _missing_dongle
+    elif [ "${_command}" == "stop" ]; then
+        echo "TODO"
+    fi
+}
+
+command="${1}"
+_main "${command}"

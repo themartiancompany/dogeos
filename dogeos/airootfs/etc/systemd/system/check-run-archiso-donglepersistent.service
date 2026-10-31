@@ -1,0 +1,15 @@
+[Unit]
+Description=Restart handler for dongle persistent service
+Requires=systemd-cryptsetup@donglepersistent.service
+StartLimitInterval=200
+StartLimitBurst=5
+
+[Service]
+Type=oneshot
+ExecStart=sh -x -c "/usr/bin/systemctl -q is-active systemd-cryptsetup@donglepersistent.service || /usr/bin/systemctl restart systemd-cryptsetup@donglepersistent.service"
+RemainAfterExit=yes
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

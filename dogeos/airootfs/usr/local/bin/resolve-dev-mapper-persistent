@@ -1,0 +1,53 @@
+#!/usr/bin/bash
+
+_resolve_dev_mapper_persistent() {
+  local _cdrom="${1}"
+  local _candidate_uuid _iso_device _iso_uuid UUID
+  local _persistent=$((3 * 1415))
+  local _mapper="/dev/mapper/persistent"
+  local _loopdevice="/dev/loop$((_persistent))"
+  _iso_device=$(mount | grep "\bbootmnt\b" | /usr/bin/awk '{print $1}')
+  eval "$(/usr/bin/blkid "${_iso_device}" | /usr/bin/awk '{print $3}')"
+  _iso_uuid="${UUID}"
+  eval "$(/usr/bin/blkid "${_cdrom}" | /usr/bin/awk '{print $3}')"
+  _candidate_uuid="${UUID}"
+  echo "ISO UUID: ${_iso_uuid}"
+  echo "${_cdrom} UUID: ${_candidate_uuid}"
+  if [ ! -e "${_mapper}" ] && [[ "${_candidate_uuid}" == "${_iso_uuid}" ]]; then
+          /usr/bin/losetup -rP "${_loopdevice}" "${_cdrom}"
+          /usr/bin/udevadm control --reload-rules
+          /usr/bin/udevadm trigger
+  fi
+}
+
+_detach_dev_mapper_persistent() {
+  local _mapper="/dev/mapper/persistent"
+  local _cdrom="/dev/sr0" _loopdevice="" _mapperdevice=""
+  _loopdevice=$(/usr/bin/losetup --list | /usr/bin/grep "${_cdrom}" | /usr/bin/awk '{print $1}')
+  _mapperdevice=$(/usr/bin/losetup --list | /usr/bin/grep "loop.p4" | /usr/bin/awk '{print $1}')
+  if [ "${_mapperdevice}" == "" ]; then
+      if [ "${_loopdevice}" != "" ]; then
+          /usr/bin/rm "${_mapper}" || true
+          /usr/bin/losetup -d "${_loopdevice}" || true
+      fi
+      udevadm control --reload-rules
+      udevadm trigger
+  else
+      echo "Unmount ${_mapperdevice} first!"
+  fi
+}
+
+_main() {
+    local _command="${1}"
+    local _cdrom
+    if [ "${_command}" == "start" ]; then
+        for _cdrom in "/dev/sr"*; do
+            _resolve_dev_mapper_persistent "${_cdrom}"
+        done
+    elif [ "${_command}" == "stop" ]; then
+        _detach_dev_mapper_persistent
+    fi
+}
+
+command="${1}"
+_main "${command}"

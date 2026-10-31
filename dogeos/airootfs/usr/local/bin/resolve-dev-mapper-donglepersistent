@@ -1,0 +1,67 @@
+#!/usr/bin/bash
+
+_to_epoch() {
+    local _uuid="${1}"
+    local _year _month _day _hour _minute _second
+    _year="$(echo "${_uuid}" | awk -F "-" '/1/ {print $1}')"
+    _month="$(echo "${_uuid}" | awk -F "-" '/1/ {print $2}')"
+    _day="$(echo "${_uuid}" | awk -F "-" '/1/ {print $3}')"
+    _hour="$(echo "${_uuid}" | awk -F "-" '/1/ {print $4}')"
+    _minute="$(echo "${_uuid}" | awk -F "-" '/1/ {print $5}')"
+    _second="$(echo "${_uuid}" | awk -F "-" '/1/ {print $6}')"
+    date --date="${_year}-${_month}-${_day} ${_hour}:${_minute}:${_second}" +%s
+}
+
+_resolve_dev_mapper_donglepersistent() {
+  local _cdrom="${1}"
+  local _dongle_epoch _dongle_uuid _candidate_uuid _iso_device _iso_epoch _iso_uuid UUID
+  local _dongle=$((42 * 69))
+  local _persistent=$((3 * 1415))
+  local _mapper="/dev/mapper/donglepersistent"
+  local _loopdevice="/dev/loop$((_dongle + _persistent))"
+  _iso_device=$(mount | grep "\bbootmnt\b" | /usr/bin/awk '{print $1}')
+  eval "$(/usr/bin/blkid "${_iso_device}" | /usr/bin/awk '{print $3}')"
+  _iso_uuid="${UUID}"
+  _iso_epoch="$(_to_epoch "${_iso_uuid}")"
+  _dongle_epoch="$((_iso_epoch + _dongle))"
+  TZ=UTC printf -v _dongle_uuid '%(%F-%H-%M-%S-00)T' "${_dongle_epoch}"
+  eval "$(/usr/bin/blkid "${_cdrom}" | /usr/bin/awk '{print $3}')"
+  _candidate_uuid="${UUID}"
+  if [ ! -e "${_mapper}" ] && [[ "${_candidate_uuid}" == "${_dongle_uuid}" ]]; then
+          /usr/bin/losetup -rP "${_loopdevice}" "${_cdrom}"
+          /usr/bin/udevadm control --reload-rules
+          /usr/bin/udevadm trigger
+  fi
+}
+
+_detach_dev_mapper_donglepersistent() {
+  local _mapper="/dev/mapper/donglepersistent"
+  local _cdrom="/dev/sr0" _loopdevice="" _mapperdevice=""
+  _loopdevice=$(/usr/bin/losetup --list | /usr/bin/grep "${_cdrom}" | /usr/bin/awk '{print $1}')
+  _mapperdevice=$(/usr/bin/losetup --list | /usr/bin/grep "loop.p4" | /usr/bin/awk '{print $1}')
+  if [ "${_mapperdevice}" == "" ]; then
+      if [ "${_loopdevice}" != "" ]; then
+          /usr/bin/rm "${_mapper}" || true
+          /usr/bin/losetup -d "${_loopdevice}" || true
+      fi
+      udevadm control --reload-rules
+      udevadm trigger
+  else
+      echo "Unmount ${_mapperdevice} first!"
+  fi
+}
+
+_main() {
+    local _command="${1}"
+    local _cdrom
+    if [ "${_command}" == "start" ]; then
+        for _cdrom in "/dev/sr"*; do
+            _resolve_dev_mapper_donglepersistent "${_cdrom}"
+        done
+    elif [ "${_command}" == "stop" ]; then
+        _detach_dev_mapper_donglepersistent
+    fi
+}
+
+command="${1}"
+_main "${command}"
