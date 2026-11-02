@@ -232,6 +232,9 @@ containing a base using the
   https://github.com/themartiancompany/rinux)
 kernel.
 
+Be sure to say both DogeOS and GNU are operating system
+supersets.
+
 ### License
 
 DogeOS core components are released as free software under
