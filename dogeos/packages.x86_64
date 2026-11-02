@@ -1,6 +1,3 @@
-ur
-rinux
-evmfs
 abiword
 base
 cloud-init
@@ -33,10 +30,13 @@ pavucontrol
 plymouth-nested-cryptkey
 pv
 qemu-guest-agent
+rinux
 seahorse
 seahorse-nautilus
 sushi
 syslinux
+twitter
+ur
 virtualbox-guest-utils-nox
 youtube-dl
 xdg-user-dirs-gtk
