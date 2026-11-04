@@ -27,11 +27,6 @@
      align="center"
   />
   <br />
-  <sub>
-    <i>
-      Temporary (?) logo.
-    </i>
-  </sub>
 </div>
 
 
